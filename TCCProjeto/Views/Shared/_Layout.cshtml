@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TCCProjeto</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TCCProjeto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="text-light" asp-controller="Home" asp-action="Index"><span>Coleta Seletiva</span></a>
+                </div>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                    </ul>
+                    <ul class="navbar-nav flex-grow-2">
+
+                    </ul>
+                    <ul class="navbar-nav flex-grow-3">
+                        
+                    </ul>
+                    <ul class="navbar-nav flex-grow-4">
+                        <partial name="_LoginPartial.cshtml" />
+                        <partial name="_LoginAdmin.cshtml" />
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+    <footer class="border-top footer text-muted" style="background-color: #FFFFF9;">
+        <div class="container">
+            &copy; 2023 - TCCProjeto - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,109 @@
+﻿@model TCCProjeto.Areas.Admin.Models.ModelPontos
+
+@{
+    ViewData["Title"] = "Adicionar Pontos";
+}
+
+<h1>Adicionar Pontos</h1>
+
+<h4>Pessoa</h4>
+<hr />
+<div class="flex-row">
+    <div class="flex-column">
+        <form asp-action="Adicionar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="QuantidadePlastico" class="control-label"></label>
+                <input asp-for="QuantidadePlastico" class="form-control" />
+                <span asp-validation-for="QuantidadePlastico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeMetal" class="control-label"></label>
+                <input asp-for="QuantidadeMetal" class="form-control" />
+                <span asp-validation-for="QuantidadeMetal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeVidro" class="control-label"></label>
+                <input asp-for="QuantidadeVidro" class="form-control" />
+                <span asp-validation-for="QuantidadeVidro" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="QuantidadePapel" class="control-label"></label>
+                <input asp-for="QuantidadePapel" class="form-control" />
+                <span asp-validation-for="QuantidadePapel" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="QuantidadeLixoEletronico" class="control-label"></label>
+                <input asp-for="QuantidadeLixoEletronico" class="form-control" />
+                <span asp-validation-for="QuantidadeLixoEletronico" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="QuantidadeOutrosLixos" class="control-label"></label>
+                <input asp-for="QuantidadeOutrosLixos" class="form-control" />
+                <span asp-validation-for="QuantidadeOutrosLixos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <h2> Tabela de Pontos por Kg</h2>
+    <table class="table-responsive">
+        <thead>
+            <tr>
+                <th>
+                    Plástico
+                </th>
+                <th>
+                    Metal
+                </th>
+                <th>
+                    Vidro
+                </th>
+                <th>
+                    Papel
+                </th>
+                <th>
+                    Lixo Eletrônico
+                </th>
+                <th>
+                    Outros Lixos
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+                <tr>
+                    <td>
+                        40 Pontos 
+                    </td>
+                    <td>
+                        100 Pontos
+                    </td>
+                    <td>
+                        60 Pontos
+                    </td>
+                    <td>
+                        30 Pontos
+                    </td>
+                    <td>
+                        200 Pontos
+                    </td>
+                    <td>
+                        70 Pontos
+                    </td>
+                </tr>
+        </tbody>
+        </table>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
