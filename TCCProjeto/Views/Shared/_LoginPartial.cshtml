@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using TCCProjeto.Entities
+@inject SignInManager<Pessoa> SignInManager
+@inject UserManager<Pessoa> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <ul class="nav-item">
+        <form method="post" asp-controller="account" asp-action="logout">
+            <button type="submit" style="width:auto"
+                class="nav-link btn btn-link py-0">
+                Logout @User.Identity.Name
+            </button>
+        </form>
+    </ul>
+}
+else
+{
+    <ul class="nav-item">
+        <a class="nav-link" asp-controller="account" asp-action="Cadastro">Cadastrar</a>
+        
+    </ul>
+    <ul class="nav-item">
+        <a class="nav-link" asp-controller="account" asp-action="Login">Login</a>
+        
+    </ul>
+}

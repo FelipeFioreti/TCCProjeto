@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using TCCProjeto.Entities
+@inject SignInManager<Pessoa> SignInManager
+@inject UserManager<Pessoa> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    @if (User.IsInRole("Admin"))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
+        </li>
+    }
+}

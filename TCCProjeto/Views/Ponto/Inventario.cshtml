@@ -1,0 +1,31 @@
+﻿@using MvcWebIdentity.Areas.Admin.Models
+@model ModelClaims
+
+@{
+    ViewData["Title"] = "Inventário";
+}
+
+
+<div class="card mt-3">
+    <div class="card-header">
+        <h3>Produtos</h3>
+    </div>
+@if (Model.Claims.Any())
+{
+    <table class="table table-sm table-bordered table-bordered">
+        <tr><th>Quantidade</th><th>Produtos</th></tr>
+        @foreach (var claim in Model.Claims)
+        {
+            <tr>
+                <td>@claim.Value</td>
+                <td>@claim.Type</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+
+    <h5 class="card-title">Você não possui produtos.</h5>
+}
+</div>

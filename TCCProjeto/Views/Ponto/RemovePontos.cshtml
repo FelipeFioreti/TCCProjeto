@@ -1,0 +1,10 @@
+﻿@model TCCProjeto.Entities.Pessoa
+
+<div>
+    @User.Identity!.Name
+</div>
+<div>
+    @Model.Pontos
+</div>
+
+<a asp-area="" asp-controller="ponto" asp-action="Index">Volta a Home Page</a>
