@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace MvcWebIdentity.Areas.Admin.Models;
+namespace TCCProjeto.Areas.Admin.Models;
 
 public class ModelClaims
 {
@@ -8,7 +8,7 @@ public class ModelClaims
     {
         Claims = new List<Claim>();
     }
-    public string? Id { get; set; }
+    public string Id { get; set; }
 
     public string? Nome { get; set; }
     public string? UserName { get; set; }

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TCCProjeto.Context;
-using TCCProjeto.Entities;
+using TCCProjeto.Models;
 using TCCProjeto.Services;
 
 

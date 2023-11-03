@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using TCCProjeto.Entities;
+using TCCProjeto.Areas.Admin.Models;
+using TCCProjeto.Models;
 
 namespace TCCProjeto.Context
 {

@@ -4,13 +4,13 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
-using MvcWebIdentity.Areas.Admin.Models;
+using TCCProjeto.Areas.Admin.Models;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Security.Claims;
 using TCCProjeto.Context;
-using TCCProjeto.Entities;
+using TCCProjeto.Models;
 
 namespace TCCProjeto.Controllers
 {

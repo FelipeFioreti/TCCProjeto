@@ -3,13 +3,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using MvcWebIdentity.Areas.Admin.Models;
+using TCCProjeto.Areas.Admin.Models;
 using System.Data;
 using System.Dynamic;
 using System.Security.Claims;
-using TCCProjeto.Areas.Admin.Models;
 using TCCProjeto.Context;
-using TCCProjeto.Entities;
 using TCCProjeto.Models;
 
 namespace TCCProjeto.Areas.Admin.Controllers

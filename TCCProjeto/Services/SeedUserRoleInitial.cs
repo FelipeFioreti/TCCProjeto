@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using TCCProjeto.Entities;
+using TCCProjeto.Models;
 using TCCProjeto.Services;
 
 namespace TCCProjeto.Services

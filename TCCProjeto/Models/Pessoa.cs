@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace TCCProjeto.Entities
+namespace TCCProjeto.Models
 {
     public class Pessoa : IdentityUser
     {
@@ -10,3 +10,4 @@ namespace TCCProjeto.Entities
         public double Pontos { get; set; }
     }
 }
+    

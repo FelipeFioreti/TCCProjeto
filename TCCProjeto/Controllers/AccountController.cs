@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using TCCProjeto.Entities;
+using System.Linq.Expressions;
 using TCCProjeto.Models;
 
 namespace TCCProjeto.Controllers
 {
-    
+
     public class AccountController : Controller
     {
         private readonly UserManager<Pessoa> userManager;
@@ -39,7 +39,6 @@ namespace TCCProjeto.Controllers
                 var result = await userManager.CreateAsync(user, model.Password);
 
 
-
                 var EmailExistente = await userManager.FindByEmailAsync(model.Email);
 
 
@@ -60,10 +59,42 @@ namespace TCCProjeto.Controllers
                 {   
                     if (EmailExistente.Email == model.Email)
                     {
-                        ModelState.AddModelError(string.Empty, "O Email já foi cadastrado.");
+                        var email = $"Username '{model.Email}' is already taken.";
+                        switch (error.Description)
+                        {
+                            case "Passwords must be at least 8 characters.":
+                                error.Description = "Senhas devem possuir mais de 8 caracteres.";
+                                break;
+                            case "Passwords must have at least one non alphanumeric character.":
+                                error.Description = "Senhas devem possuir pelo menos um caractere alpha numérico.";
+                                break;
+                            case "Passwords must have at least one lowercase ('a'-'z').":
+                                error.Description = "Senhas devem possuir pelo menos uma letra minúscula.";
+                                break;
+                            case "Passwords must have at least one uppercase ('A'-'Z').":
+                                error.Description = "Senhas devem possuir pelo menos uma letra maiúscula.";
+                                break;
+                            case "Passwords must have at least one digit ('0'-'9').":
+                                error.Description = "Senhas devem possuir pelo menos um numeral ('0'-'9').";
+                                break;
+                            default:
+                                error.Description = "Email já foi utilizado.";
+                                break;
+                        }
+
+                        ModelState.AddModelError(string.Empty, error.Description);
                     }
                     else
                     {
+                        error.Description = error.Description switch
+                        {
+                            "Passwords must be at least 8 characters." => "Senhas devem possuir mais de 8 caracteres.",
+                            "Passwords must have at least one non alphanumeric character." => "Senhas devem possuir pelo menos um caractere alpha numérico.",
+                            "Passwords must have at least one lowercase ('a'-'z')." => "Senhas devem possuir pelo menos uma letra minúscula.",
+                            "Passwords must have at least one uppercase ('A'-'Z')." => "Senhas devem possuir pelo menos uma letra maiúscula.",
+                            "Passwords must have at least one digit ('0'-'9')." => "Senhas devem possuir pelo menos um numeral ('0'-'9').",
+                            _ => "Cadastro inválido",
+                        };
                         ModelState.AddModelError(string.Empty, error.Description);
                     }
                 }

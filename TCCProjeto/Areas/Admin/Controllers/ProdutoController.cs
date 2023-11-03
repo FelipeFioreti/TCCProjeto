@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TCCProjeto.Areas.Admin.Models;
 using TCCProjeto.Context;
-using TCCProjeto.Entities;
 
 namespace TCCProjeto.Areas.Admin.Controllers
 {
@@ -34,7 +33,7 @@ namespace TCCProjeto.Areas.Admin.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Adicionar(ModelProduto model)
+        public async Task<IActionResult> Adicionar(Produto model)
         {
             if (ModelState.IsValid)
             {
@@ -115,7 +114,7 @@ namespace TCCProjeto.Areas.Admin.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProdutoExists(produto.Id))
+                    if (!ProdutoExists((int)produto.Id))
                     {
                         return NotFound();
                     }
