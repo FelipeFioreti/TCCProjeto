@@ -39,7 +39,7 @@ namespace TCCProjeto.Controllers
                 var result = await userManager.CreateAsync(user, model.Password);
 
 
-                var EmailExistente = await userManager.FindByEmailAsync(model.Email);
+                Pessoa? EmailExistente = await userManager.FindByEmailAsync(model.Email);
 
 
                 // Se o usuário foi criado com sucesso, faz o login do usuário usando o serviço SignInManager ...
@@ -51,13 +51,13 @@ namespace TCCProjeto.Controllers
                     return RedirectToAction("index", "home");
 
                 }
-                
 
+                
                 // Se houver algum erro então inclui o ModelState que ...
                 // será exibido pela tag helper summary na validação    
                 foreach (var error in result.Errors)
                 {   
-                    if (EmailExistente.Email == model.Email)
+                    if (EmailExistente?.Email == model.Email)
                     {
                         var email = $"Username '{model.Email}' is already taken.";
                         switch (error.Description)

@@ -1,54 +1,107 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">  
+
     <title>@ViewData["Title"] - TCCProjeto</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/TCCProjeto.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
-            <div class="container-fluid">
-                <div class="logo">
-                    <a class="text-light" asp-controller="Home" asp-action="Index"><span>Coleta Seletiva</span></a>
+   <header id="header" class="d-flex align-items-center">
+    <div class="container">
+        <div class="header-container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <h1><a class="text-light" asp-area="" asp-controller="home" asp-action="Index"><span>Coleta Seletiva</span></a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                <li><partial name="_LoginAdmin.cshtml" class="nav-link scrollto" /></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto"><span>Recicláveis convencionais<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                    <ul>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Plastico">Plástico</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Papel">Papel</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Vidro">Vidro</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Metal">Metal</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto"><span>Recicláveis Específicos<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                    <ul>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Organico">Organico</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Pilha">Pilha</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Hospitalar">Hospitalar</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Madeira">Madeira</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Radioativo">Radioativo</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto"><span>Página Inicial<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                    <ul>
+                        <li><a class="nav-link scrollto" href="#projetos">Projetos</a></li>
+                        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link scrollto" href="#equipe">Equipe</a></li>
+                    </ul>
+                </li>
+                <li><a class="getstarted scrollto" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a></li>
+                <li><a class="nav-link scrollto" asp-area="" asp-controller="ponto" asp-action="Inventario">Inventário</a></li>
+                <li><partial name="_LoginPartial.cshtml" class="nav-link scrollto" /></li>
+                        </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </div>
+  </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer id="footer" class="border-top text-muted" style="background-color: #FFFFF9;">
+            <div class="container">
+                <div style="padding: 0 !important; margin: 0 !important;">
+                    &copy; Copyright <strong><span>Bethany</span></strong>. All Rights Reserved
                 </div>
-
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-
-                    </ul>
-                    <ul class="navbar-nav flex-grow-2">
-
-                    </ul>
-                    <ul class="navbar-nav flex-grow-3">
-                        
-                    </ul>
-                    <ul class="navbar-nav flex-grow-4">
-                        <partial name="_LoginPartial.cshtml" />
-                        <partial name="_LoginAdmin.cshtml" />
-                        <a class="nav-link text-dark" asp-area="" asp-controller="ponto" asp-action="Inventario">Inventário</a>
-                        <a class="nav-link text-dark" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a>
-                    </ul>
+                <div style="padding: 0 !important; margin: 0 !important;">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+                    Designed by <a style="color: #009970;" href="https://bootstrapmade.com/">BootstrapMade</a>
                 </div>
             </div>
-        </nav>
-    </header>
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-
-    <footer class="border-top footer text-muted" style="background-color: #FFFFF9;">
-        <div class="container">
-            &copy; 2023 - TCCProjeto - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/js/main.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+

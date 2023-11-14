@@ -19,6 +19,51 @@ namespace TCCProjeto.Controllers
             return View();
         }
 
+        // CONVENCIONAIS
+
+        public IActionResult Papel()
+        {
+            return View();
+        }
+
+        public IActionResult Vidro()
+        {
+            return View();
+        }
+        public IActionResult Plastico()
+        {
+            return View();
+        }
+        public IActionResult Metal()
+        {
+            return View();
+        }
+
+
+        // ESPECÍFICOS
+        public IActionResult Pilha()
+        {
+            return View();
+        }
+
+        public IActionResult Organico()
+        {
+            return View();
+        }
+
+        public IActionResult Madeira()
+        {
+            return View();
+        }
+        public IActionResult Hospitalar()
+        {
+            return View();
+        }
+
+        public IActionResult Radioativo()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
