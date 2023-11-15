@@ -27,6 +27,14 @@
             <nav id="navbar" class="navbar">
                 <ul>
                 <li><partial name="_LoginAdmin.cshtml" class="nav-link scrollto" /></li>
+                 <li class="dropdown">
+                    <a href="#" class="nav-link scrollto"><span>Página Inicial<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                    <ul>
+                        <li><a class="nav-link scrollto" href="#projetos">Projetos</a></li>
+                        <li><a class="nav-link scrollto " href="#reciclaveis">Recicláveis</a></li>
+                        <li><a class="nav-link scrollto" href="#equipe">Equipe</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown">
                     <a href="#" class="nav-link scrollto"><span>Recicláveis convencionais<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
                     <ul>
@@ -46,15 +54,7 @@
                         <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Radioativo">Radioativo</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="nav-link scrollto"><span>Página Inicial<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
-                    <ul>
-                        <li><a class="nav-link scrollto" href="#projetos">Projetos</a></li>
-                        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-                        <li><a class="nav-link scrollto" href="#equipe">Equipe</a></li>
-                    </ul>
-                </li>
-                <li><a class="getstarted scrollto" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a></li>
+                <li><a style="text-decoration: none !important; padding: 7px !important;" class="getstarted scrollto" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a></li>
                 <li><a class="nav-link scrollto" asp-area="" asp-controller="ponto" asp-action="Inventario">Inventário</a></li>
                 <li><partial name="_LoginPartial.cshtml" class="nav-link scrollto" /></li>
                         </ul>
@@ -78,7 +78,7 @@
                     <!-- You can delete the links only if you purchased the pro version. -->
                     <!-- Licensing information: https://bootstrapmade.com/license/ -->
                     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-                    Designed by <a style="color: #009970;" href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Designed by <a style="color: #009970; text-decoration: none !important;" href="https://bootstrapmade.com/">BootstrapMade</a>
                 </div>
             </div>
     </footer>

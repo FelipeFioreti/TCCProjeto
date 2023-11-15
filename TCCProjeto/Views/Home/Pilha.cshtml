@@ -1,23 +1,26 @@
-﻿<!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+﻿@{
+    ViewBag.Title = "Pilha";
+}
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="pt-br">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
-    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/vanilla-zoom.min.css">
 </head>
 
 <body>
     <main class="page landing-page">
-        <section class="clean-block clean-hero" style="color: rgba(69,196,176,0.85);background: url(&quot;assets/img/tech/a.png&quot;);">
-            <div class="text">
+        <section class="clean-block clean-hero" style="color: rgba(69,196,176,0.85);background: url(&quot;../img/tech/a.png&quot;);">
+            <div class="text text-center">
                 <h2 style="color: #FFFFF1;font-family: Poppins, sans-serif;font-size: 60px;font-weight: bold;">Aprenda a Reciclar</h2>
                 <p style="color: #FFFFF1;font-family: 'Open Sans', sans-serif;">A coleta seletiva otimiza a reciclagem do lixo, para melhorar o processo de separação dos materiais, as lixeiras são diferenciadas por cores as quais representam o tipo de resíduo que ela deve receber. </p>
                 <button class="btn btn-outline-light btn-lg" type="button" style="border-radius: 30px;border-width: 2px; transition: 0.6s;">SAIBA MAIS</button>
@@ -30,7 +33,7 @@
                     <p style="font-family: 'Open Sans', sans-serif;color: #000F21;">A reciclagem de pilhas e baterias desempenha um papel vital na preservação do meio ambiente e na gestão adequada de resíduos tóxicos. </p>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-6"><img class="img-thumbnail" src="assets/img/scenery/image13.png"></div>
+                    <div class="col-md-6"><img class="img-thumbnail" src="~/img/scenery/image13.png"></div>
                     <div class="col-md-6">
                         <h3 style="font-weight: bold;">Ajude na Reciclagem</h3>
                         <div class="getting-started-info">
@@ -41,15 +44,11 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer dark" style="background: #f1f0f2;height: 81.941px;">
-        <div class="footer-copyright" style="background: #f1f0f2;border-width: 0px;height: 39.9646px;">
-            <p style="color: rgb(13,13,13);">© 2023 Mundo Verde</p>
-        </div>
-    </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/baguetteBox.min.js"></script>
-    <script src="assets/js/vanilla-zoom.js"></script>
-    <script src="assets/js/theme.js"></script>
+
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/vendor/bootstrap/js/baguetteBox.min.js"></script>
+    <script src="~/vendor/bootstrap/js/vanilla-zoom.js"></script>
+    <script src="~/vendor/bootstrap/js/theme.js"></script>
 </body>
 
 </html>
