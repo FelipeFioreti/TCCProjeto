@@ -23,7 +23,6 @@ namespace TCCProjeto.Models
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "As senhas não são compatíveis")]
         public string? ConfirmPassword { get; set; }
-        public int Pontos { get; set; }
 
     }
 }

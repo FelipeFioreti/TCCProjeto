@@ -120,10 +120,10 @@ namespace TCCProjeto.Controllers
                 // caso uma tentativa de login seja inválida
                 Console.WriteLine(model.Email);
                 Console.WriteLine(model.Password);
-                Console.WriteLine(model.RememberMe);
+                Console.WriteLine(model.LembrarMe);
 
                 var result = await signInManager.PasswordSignInAsync(
-                    model.Email, model.Password, model.RememberMe, false);
+                    model.Email, model.Password, model.LembrarMe, false);
                 
                 // Se for um sucesso
                 if (result.Succeeded)

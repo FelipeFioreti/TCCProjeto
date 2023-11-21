@@ -13,6 +13,6 @@ namespace TCCProjeto.Models
         public string? Password { get; set; }
 
         [Display(Name = "Lembrar-me")]
-        public bool RememberMe { get; set; }
+        public bool LembrarMe { get; set; }
     }
 }
