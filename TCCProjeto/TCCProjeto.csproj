@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\reciclaveis\**" />
+    <Content Remove="wwwroot\reciclaveis\**" />
+    <EmbeddedResource Remove="wwwroot\reciclaveis\**" />
+    <None Remove="wwwroot\reciclaveis\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.20" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
@@ -34,18 +41,6 @@
     <None Include="wwwroot\img\cta-bg.jpg" />
     <None Include="wwwroot\img\favicon.png" />
     <None Include="wwwroot\img\flo-bg.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-1.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-2.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-3.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-4.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-5.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-6.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-7.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-8.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-9.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-details-1.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-details-2.jpg" />
-    <None Include="wwwroot\img\portfolio\portfolio-details-3.jpg" />
     <None Include="wwwroot\img\reci-bg.jpg" />
     <None Include="wwwroot\img\team\team-1.jpg" />
     <None Include="wwwroot\img\team\team-2.jpg" />
