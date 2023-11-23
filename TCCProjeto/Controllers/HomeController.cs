@@ -19,6 +19,11 @@ namespace TCCProjeto.Controllers
             return View();
         }
 
+        public IActionResult Equipe()
+        {
+            return View();
+        }
+
         // CONVENCIONAIS
 
         public IActionResult Papel()

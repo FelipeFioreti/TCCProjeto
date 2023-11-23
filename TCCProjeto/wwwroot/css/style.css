@@ -9,9 +9,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 body {
 font-family: "Open Sans", sans-serif;
 color: #444444;
+margin: 0;
+padding: 0;
 }
 
 a {
@@ -84,11 +91,14 @@ transition-delay: 0 !important;
     transition: all 0.5s;
     top: 0px;
     background: #fff;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.shadow {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1) !important;
 }
 
 #header .header-container {
-background: #fff;
+    background: #fff;
 }
 
 #header.header-scrolled {
@@ -98,11 +108,34 @@ top: 0;
 }
 
 .logo {
-text-decoration: none !important;
 overflow: hidden;
 padding: 16px 30px 12px 30px;
 background: #009970;
 }
+
+.floribela-nav {
+    display: none !important;
+    padding: 0px 10px 0px 10px !important;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .logo {
+        display: none !important;
+    }
+    header{
+        height: 62px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .floribela-nav {
+        display: block !important;
+    }
+    header {
+        height: 62px;
+    }
+}
+
 
 #header .logo h1 {
 font-size: 26px;
@@ -115,7 +148,7 @@ font-family: "Poppins", sans-serif;
 #header .logo h1 a,
 #header .logo h1 a:hover {
 color: #fff;
-text-decoration: none;
+text-decoration: none !important;
 }
 
 #header .logo img {
@@ -124,7 +157,7 @@ margin: 0;
 max-height: 40px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 #header {
 box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 top: 0;
@@ -1120,6 +1153,9 @@ margin-left: 8px;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+    display: block;
+}
 .contact .info {
 padding: 30px;
 width: 100%;
@@ -1298,172 +1334,114 @@ display: inline-block;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-color: #444444;
-font-size: 20px;
-background: #f1f0f2;
-position: absolute;
-bottom: 0;
-width: 100%;
-line-height: 35px !important;
-text-decoration: none !important;
+footer {
+    bottom: 0;
 }
 
-#footer .footer-top {
-padding: 60px 0 30px 0;
-background: #f9f8f9;
+.footer-sect {
+    padding: 60px 0 30px 0;
+    background: #f9f8f9;
 }
 
-#footer .footer-top .footer-contact {
-margin-bottom: 30px;
-text-decoration: none !important;
+.footer-sect .footer-contact {
+    margin-bottom: 30px;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-contact h4 {
-font-size: 22px;
-margin: 0 0 30px 0;
-padding: 2px 0 2px 0;
-line-height: 1;
-font-weight: 700;
-text-decoration: none !important;
+.footer-sect .footer-contact h2 {
+    font-size: 2em;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-contact p {
-font-size: 14px;
-line-height: 24px;
-margin-bottom: 0;
-font-family: "Raleway", sans-serif;
-color: #777777;
-text-decoration: none !important;
+.footer-sect .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    text-decoration: none !important;
 }
 
-#footer .footer-top h4 {
-font-size: 16px;
-font-weight: bold;
-color: #444444;
-position: relative;
-padding-bottom: 12px;
-text-decoration: none !important;
+
+.footer-sect .footer-links {
+    margin-bottom: 30px;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-links {
-margin-bottom: 30px;
-text-decoration: none !important;
+
+.footer-sect .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-links ul {
-list-style: none;
-padding: 0;
-margin: 0;
-text-decoration: none !important;
+.footer-sect .footer-links ul i {
+    padding-right: 2px;
+    color: #00c28e;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-links ul i {
-padding-right: 2px;
-color: #00c28e;
-font-size: 18px;
-line-height: 1;
-text-decoration: none !important;
+.footer-sect .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-links ul li {
-padding: 10px 0;
-display: flex;
-align-items: center;
-text-decoration: none !important;
+
+.footer-sect .footer-links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none !important;
 }
 
-#footer .footer-top .footer-links ul li:first-child {
-padding-top: 0;
+.footer-sect .footer-links ul a:hover {
+    color: #00cc95;
+    text-decoration: none;
 }
 
-#footer .footer-top .footer-links ul a {
-color: #777777;
-transition: 0.3s;
-display: inline-block;
-line-height: 1;
-text-decoration: none !important;
-}
 
-#footer .footer-top .footer-links ul a:hover {
-text-decoration: none;
-color: #009970;
-}
-
-#footer .footer-newsletter {
-font-size: 15px;
-text-decoration: none !important;
-}
-
-#footer .footer-newsletter h4 {
-font-size: 16px;
-font-weight: bold;
-color: #444444;
-position: relative;
-padding-bottom: 12px;
-text-decoration: none !important;
-}
-
-#footer .footer-newsletter form {
-margin-top: 30px;
-background: #fff;
-padding: 6px 10px;
-position: relative;
-border-radius: 50px;
-text-align: left;
-border: 1px solid #e4e3e6;
-text-decoration: none !important;
-}
-
-#footer .footer-newsletter form input[type=email] {
-border: 0;
-padding: 4px 8px;
-width: calc(100% - 100px);
-text-decoration: none !important;
-}
-
-#footer .footer-newsletter form input[type=submit] {
-position: absolute;
-top: 0;
-right: -2px;
-bottom: 0;
-border: 0;
-background: none;
-font-size: 16px;
-padding: 0 20px;
-background: #009970;
-color: #fff;
-transition: 0.3s;
-border-radius: 50px;
-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-background: #00664b;
-}
-
-#footer .credits {
+.credits {
 padding-top: 5px;
 font-size: 13px;
 color: #444444;
 }
 
-#footer .social-links a {
-font-size: 18px;
-display: inline-block;
-background: #009970;
-color: #fff;
-line-height: 1;
-padding: 8px 0;
-margin-right: 4px;
-border-radius: 50%;
-text-align: center;
-width: 36px;
-height: 36px;
-transition: 0.3s;
+.credits a{
+    color: #009970;
+    text-decoration: none;
 }
 
-#footer .social-links a:hover {
+.credits a:hover {
+    color: #00cc95;
+    text-decoration: none;
+}
+
+
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #009970;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
 background: #00805d;
 color: #fff;
 text-decoration: none;

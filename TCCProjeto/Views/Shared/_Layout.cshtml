@@ -16,23 +16,28 @@
     <link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="~/favicon-16x16.png">
     <link rel="manifest" href="~/site.webmanifest">
+
+ 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 </head>
 <body>
-   <header id="header" class="d-flex align-items-center">
+    <header id="header" class="align-bottom d-flex align-items-center shadow">
     <div class="container">
         <div style="max-height: 62px;" class="header-container d-flex align-items-center justify-content-between">
-            <div class="logo">
-                <h1><a class="text-light" asp-area="" asp-controller="home" asp-action="Index"><span>Coleta Seletiva</span></a></h1>
+            <div class="floribela-nav">
+                <img src="~/android-chrome-512x512.png" alt="Mascote floribela icone" style="max-width:65px;"><br>
+            </div>
+            <div class="logo text-center align-center">
+                    <h1><a class="text-light" asp-area="" asp-controller="home" asp-action="Index"><span class="text-center">Coleta Seletiva</span></a></h1>
             </div>
             <nav id="navbar" class="navbar">
                 <ul>
                 <li><partial name="_LoginAdmin.cshtml" class="nav-link scrollto" /></li>
-                 <li class="dropdown">
-                    <a href="#" class="nav-link scrollto"><span>Página Inicial<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                <li class="dropdown">
+                <a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Index"><span>Página Inicial<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span></a>
                     <ul>
                         <li><a class="nav-link scrollto" href="#projetos">Projetos</a></li>
                         <li><a class="nav-link scrollto " href="#reciclaveis">Recicláveis</a></li>
@@ -72,38 +77,52 @@
         @RenderBody()
     </main>
 
-    <footer id="footer" class="border-top text-muted" style="background-color: #FFFFF9;">
-            <div class="container">
-                <div style="padding: 0 !important; margin: 0 !important;">
-                    &copy; Copyright <strong><span>Bethany</span></strong>. All Rights Reserved
+    <footer class="text-center text-lg-start text-dark" style="background: white !important;">
+            <div class="container text-center text-md-start mt-5">
+                <section class="footer-sect">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div>
+                            <img src="~/android-chrome-512x512.png" style="max-height: 250px;" alt="Imagem Floribela">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 footer-contact">
+                        <h2>Sobre nós</h2>
+                        <p>
+                            A108 Adam Street <br>
+                            New York, NY 535022<br>
+                            United States <br><br>
+                            <strong>Email:</strong> mundoVerde@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-links">
+                        <h2>Equipe</h2>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a asp-controller="home" asp-action="Equipe">Time</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div style="padding: 0 !important; margin: 0 !important;">
+                </section>  
+            </div>
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Mundo Verde</span></strong>. Todos os direitos reservados
+                </div>
+                <div class="credits">
                     <!-- All the links in the footer should remain intact. -->
                     <!-- You can delete the links only if you purchased the pro version. -->
                     <!-- Licensing information: https://bootstrapmade.com/license/ -->
                     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-                    Designed by <a style="color: #009970; text-decoration: none !important;" href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                 </div>
             </div>
+
+        </div>
     </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="~/vendor/aos/aos.js"></script>
-    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="~/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="~/js/main.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
