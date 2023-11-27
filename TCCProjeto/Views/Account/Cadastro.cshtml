@@ -77,6 +77,16 @@
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                 </div>
 
+                <div class="form-group form-outline mb-1 text-box">
+                    <div class="checkbox">
+                        <label asp-for="Termos">
+                            <input asp-for="Termos"/>
+                                Li e estou de acordo com as  <a style="text-decoration: underline !important;" asp-controller="account" asp-action="TermosDeUso"> políticas da LGPD e termos de uso.</a>
+                            <span asp-validation-for="Termos" class="text-danger"></span>
+                        </label>
+                    </div>
+                </div>
+
                 <div class="pt-1 mb-4">
                     <button type="submit" class="btn btn-dark btn-lg btn-block mt-3">Cadastre-se</button>
                 </div>

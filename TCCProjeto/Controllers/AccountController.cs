@@ -25,6 +25,12 @@ namespace TCCProjeto.Controllers
         [HttpPost]
         public async Task<IActionResult> Cadastro(CadastroViewModel model)
         {
+            if (model.Termos == false)
+            {
+                var erroTermosDeUso = "É necessário estar de acordo com os termos de uso";
+                ModelState.AddModelError(string.Empty, erroTermosDeUso);
+            }
+
             if (ModelState.IsValid)
             {
                 // Copia os dados do CadastroViewModel para a Pessoa
@@ -39,8 +45,7 @@ namespace TCCProjeto.Controllers
                 var result = await userManager.CreateAsync(user, model.Password);
 
 
-                Pessoa? EmailExistente = await userManager.FindByEmailAsync(model.Email);
-
+                Pessoa? emailExistente = await userManager.FindByEmailAsync(model.Email);
 
                 // Se o usuário foi criado com sucesso, faz o login do usuário usando o serviço SignInManager ...
                 // e redireciona para o Método Action Index do controlador Home (HomeController).
@@ -52,12 +57,11 @@ namespace TCCProjeto.Controllers
 
                 }
 
-                
                 // Se houver algum erro então inclui o ModelState que ...
                 // será exibido pela tag helper summary na validação    
                 foreach (var error in result.Errors)
-                {   
-                    if (EmailExistente?.Email == model.Email)
+                {
+                    if (emailExistente?.Email == model.Email)
                     {
                         var email = $"Username '{model.Email}' is already taken.";
                         switch (error.Description)
@@ -150,6 +154,11 @@ namespace TCCProjeto.Controllers
         [HttpGet]
         [Route("/Account/AccessDenied")]
         public IActionResult AccessDenied()
+        {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult TermosDeUso()
         {
             return View();
         }

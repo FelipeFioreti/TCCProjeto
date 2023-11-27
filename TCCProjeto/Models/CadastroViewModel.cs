@@ -4,8 +4,8 @@ namespace TCCProjeto.Models
 {
     public class CadastroViewModel
     {
-        [Required(ErrorMessage = "O Email é obrigatório")]
-        [EmailAddress(ErrorMessage = "Email inválido")]
+        [Required(ErrorMessage = "O Email é obrigatório.")]
+        [EmailAddress(ErrorMessage = "Email inválido.")]
         public string? Email { get; set; }
         [Required(ErrorMessage = "Confirmar o Email é obrigatório")]
         [EmailAddress]
@@ -23,6 +23,8 @@ namespace TCCProjeto.Models
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "As senhas não são compatíveis")]
         public string? ConfirmPassword { get; set; }
+        [Required(ErrorMessage = "O Termo é obrigatório.")]
+        public bool Termos { get; set; }
 
     }
 }

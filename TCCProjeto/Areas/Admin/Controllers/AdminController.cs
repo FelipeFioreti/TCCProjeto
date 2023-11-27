@@ -26,9 +26,10 @@ namespace TCCProjeto.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
+
             return _context.Pessoas != null ?
                         View(await _context.Pessoas.ToListAsync()) :
-                        Problem("Entity set 'AppDbContext.Pessoas'  é null.");
+                        Problem("O contexto é nulo.");
         }
 
 
@@ -294,7 +295,7 @@ namespace TCCProjeto.Areas.Admin.Controllers
         {
             if (_context.Pessoas == null)
             {
-                return Problem("Entity set 'AppDbContext.Pessoas'  is null.");
+                return Problem("O contexto é nulo.");
             }
             var pessoa = await _context.Pessoas.FindAsync(id);
             if (pessoa != null)
