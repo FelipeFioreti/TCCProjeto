@@ -42,10 +42,6 @@
     <None Include="wwwroot\img\favicon.png" />
     <None Include="wwwroot\img\flo-bg.jpg" />
     <None Include="wwwroot\img\reci-bg.jpg" />
-    <None Include="wwwroot\img\team\team-1.jpg" />
-    <None Include="wwwroot\img\team\team-2.jpg" />
-    <None Include="wwwroot\img\team\team-3.jpg" />
-    <None Include="wwwroot\img\team\team-4.jpg" />
     <None Include="wwwroot\img\testimonials\testimonials-1.jpg" />
     <None Include="wwwroot\img\testimonials\testimonials-2.jpg" />
     <None Include="wwwroot\img\testimonials\testimonials-3.jpg" />

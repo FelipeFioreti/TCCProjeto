@@ -1334,8 +1334,21 @@ display: inline-block;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-footer {
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem; /* altura do rodapé */
+}
+
+#footer {
+    position: absolute;
     bottom: 0;
+    width: 100%;
+    height: 2.5rem; /* altura do rodapé */
 }
 
 .footer-sect {
@@ -1346,6 +1359,7 @@ footer {
 .footer-sect .footer-contact {
     margin-bottom: 30px;
     text-decoration: none !important;
+    text-align:justify;
 }
 
 .footer-sect .footer-contact h2 {
@@ -1354,6 +1368,7 @@ footer {
     padding: 2px 0 2px 0;
     line-height: 1;
     text-decoration: none !important;
+    text-align: center;
 }
 
 .footer-sect .footer-contact p {
@@ -1363,6 +1378,7 @@ footer {
     font-family: "Raleway", sans-serif;
     color: #777777;
     text-decoration: none !important;
+
 }
 
 
@@ -1392,6 +1408,7 @@ footer {
     display: flex;
     align-items: center;
     text-decoration: none !important;
+
 }
 
 
@@ -1408,6 +1425,13 @@ footer {
     text-decoration: none;
 }
 
+.sobreNos {
+    font-style: italic;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    border: 2px solid #e9e9e9 !important;
+}
 
 .credits {
 padding-top: 5px;
@@ -1415,30 +1439,34 @@ font-size: 13px;
 color: #444444;
 }
 
-.credits a{
-    color: #009970;
-    text-decoration: none;
+.credits a {
+color: #00d15f;
+text-decoration: none;
 }
 
 .credits a:hover {
-    color: #00cc95;
-    text-decoration: none;
+color: #00ff0a;
+text-decoration: none;
 }
 
+.copyright {
+
+    
+}
 
 .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #009970;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
+font-size: 18px;
+display: inline-block;
+background: #009970;
+color: #fff;
+line-height: 1;
+padding: 8px 0;
+margin-right: 4px;
+border-radius: 50%;
+text-align: center;
+width: 36px;
+height: 36px;
+transition: 0.3s;
 }
 
 .social-links a:hover {

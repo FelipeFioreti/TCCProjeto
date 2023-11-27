@@ -71,51 +71,60 @@
     </div>
   </header>
 
-    <main role="main" class="pb-3">
-        @RenderBody()
+    <main id="page-container" role="main" class="pb-3">
+        <div id="content-wrap">
+            @RenderBody()
+        </div>
     </main>
 
-    <footer class="text-center text-lg-start text-dark" style="background: white !important;">
-            <div class="container text-center text-md-start mt-5">
-                <section class="footer-sect">
+    <footer id="footer" class="text-center text-lg-start text-dark">
+            <div class="text-center text-md-start mt-5">
+            <section style="background-color: white !important;padding-right: 3rem!important;border-top: 2px solid #dbdbdb !important;" class="footer-sect ps-5">
                 <div class="row">
+                    <div class="col-lg-1 col-md-6">
+                    </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div>
                             <img src="~/android-chrome-512x512.png" style="max-height: 250px;" alt="Imagem Floribela">
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 footer-contact">
-                        <h2>Sobre nós</h2>
+
+                    <div class="col-lg-1 col-md-6">
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-contact footer-links">
+                        <h2>Sobre</h2>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
+                           
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a asp-controller="home" asp-action="SobreNos">Sobre nós</a></li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h2>Contato</h2>
+                        <p style="font-size: 1em !important;text-align: center !important;">
                             <strong>Email:</strong> mundoverdetcc@gmail.com<br>
                         </p>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 footer-links">
-                        <h2>Equipe</h2>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a asp-controller="home" asp-action="Equipe">Time</a></li>
-                        </ul>
-                    </div>
                 </div>
                 </section>  
             </div>
-        <div class="container d-md-flex py-4">
+        <div style=" background-color: #013b20 !important" class="ps-5 d-md-flex py-4">
 
             <div class="me-md-auto text-center text-md-start">
-                <div class="copyright">
+                <div class="copyright" style="color: white;">
                     &copy; Copyright <strong><span>Mundo Verde</span></strong>. Todos os direitos reservados
                 </div>
-                <div class="credits">
+                <div class="credits" style="color: white;">
                     <!-- All the links in the footer should remain intact. -->
                     <!-- You can delete the links only if you purchased the pro version. -->
                     <!-- Licensing information: https://bootstrapmade.com/license/ -->
                     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Projetado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
                 </div>
             </div>
 

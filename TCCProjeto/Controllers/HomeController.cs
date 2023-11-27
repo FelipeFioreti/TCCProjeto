@@ -19,7 +19,7 @@ namespace TCCProjeto.Controllers
             return View();
         }
 
-        public IActionResult Equipe()
+        public IActionResult SobreNos()
         {
             return View();
         }
