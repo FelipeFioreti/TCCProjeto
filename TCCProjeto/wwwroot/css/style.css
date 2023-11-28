@@ -1355,6 +1355,19 @@ display: inline-block;
     padding: 60px 0 30px 0;
     background: #f9f8f9;
 }
+@media (min-width: 767px) and (max-width: 992px) {
+    .divDeEspacamento {
+        display: none !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        width: !important;
+        text-align: center !important;
+    }
+}
 
 .footer-sect .footer-contact {
     margin-bottom: 30px;
