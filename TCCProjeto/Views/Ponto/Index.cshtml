@@ -1,0 +1,148 @@
+﻿@model Pessoa
+
+@{
+    ViewBag.Title = "Pontos";
+}
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <div class="container py-4 py-xl-5" style="width: 100%;">
+        <div class="row d-xxl-flex justify-content-xxl-center">
+            <div class="col"><img class="d-xxl-flex justify-content-xxl-center" style="width: 150px;height: 150px;padding-left: 0px;margin-left: 580px;" src="~/img/PagPontos/MicrosoftTeams-image-removebg-preview.png"></div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2>
+                MEUS PONTOS - @Model.Pontos
+            </h2>
+                <p class="w-lg-50">Resgate aqui incríveis recompensas utilizando os pontos que você juntou durante a sua jornada!</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2">
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 150px;margin-top: 7px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-1.png" width="200px" height="200px"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Passagem de Ônibus</h4>
+                        <p class="text-start">Receba uma passagem gratuita para a utilização do transporte público de sua cidade!</p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="PassagemOnibus"  class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded img-fluid d-inline d-block w-100 fit-cover" style="height: 150px;margin: 7px 0px 0px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-8.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Cupom do Paguemenos</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Faça suas compras com um bom desconto.&nbsp;<br><br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="CupomPaguemenos" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded d-block w-100 fit-cover" style="height: 150px;margin: 7px 0px 0px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-9.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Cesta&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Básica</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Receba uma cesta básica com o essencial para sua sobrevivência.<br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="CestaBasica" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded d-block w-100 fit-cover" style="height: 150px;margin: 7px 0px 0px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-7.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Produtos de Limpeza</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Mantenha sua casa limpa com produtos de limpeza.<br><br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="ProdutosLimpeza" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded d-block w-100 fit-cover" style="height: 150px;margin: 7px 0px 0px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-2.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Desconto no<br>IPTU</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Receba um desconto no valor do seu IPTU.<br><br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="DescontoIPTU" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded d-block w-100 fit-cover" style="height: 150px;margin: 7px 0px 0px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-3.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Vale <br>Alimentação</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Coma de graça com seu vale alimentação.&nbsp;<br><br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="ValeAlimentacao" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+            
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 150px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-4.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Peças de <br>Roupa</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Ganhe peças de roupa novas para seu conforto e proteção do frio!<br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="PecasRoupa" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+            
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 150px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-5.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Milhas</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Viaje mais barato com as milhas que você receber!<br><br><br><br></p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="Milhas" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+            
+            <div class="col-xxl-4" style="height: 250px;">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 150px;margin-top: 9px;width: 150px;max-width: 150px;max-height: 150px;" src="~/img/PagPontos/clipboard-image-6.png"></div>
+                    <div class="py-4 py-lg-0 px-lg-4">
+                        <h4 style="margin-left: -1px;">Brinquedos<br>Infantis</h4>
+                        <p class="text-start" style="width: 217px;max-width: 217px;">Toda criança merece um brinquedo para se divertir. Receba um brinquedo legal aqui.</p>
+                    </div>
+                </div><a asp-controller="ponto" asp-action="ResgatarProdutos" asp-route-id="@Model.Id" asp-route-item="BrinquedosInfantis" class="btn btn-primary" style="margin-left: 110px;background: #45c4b0;border-color: #45C4B0;font-weight: bold;color: #FFFFF1;">Resgatar&nbsp;</a>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/js/main.js"></script>
+    </body>
+</html>

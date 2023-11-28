@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">  
+
+    <title>@ViewData["Title"] - TCCProjeto</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TCCProjeto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="~">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicon-16x16.png">
+    <link rel="manifest" href="~/site.webmanifest">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="align-bottom d-flex align-items-center shadow">
+    <div class="container">
+        <div style="max-height: 62px;" class="header-container d-flex align-items-center justify-content-between">
+            <div class="floribela-nav">
+                <img src="~/android-chrome-512x512.png" alt="Mascote floribela icone" style="max-width:65px;"><br>
+            </div>
+            <div class="logo text-center align-center">
+                    <h1><a class="text-light" asp-area="" asp-controller="home" asp-action="Index"><span class="text-center">Coleta Seletiva</span></a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                <li><partial name="_LoginAdmin.cshtml" class="nav-link scrollto" /></li>
+                <li class="dropdown">
+                <a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Index"><span>Página Inicial<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span></a>
+                    <ul>
+                        <li><a class="nav-link scrollto" href="#projetos">Projetos</a></li>
+                        <li><a class="nav-link scrollto " href="#reciclaveis">Recicláveis</a></li>
+                        <li><a class="nav-link scrollto" href="#ecoponto">Ecopontos</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto"><span>Descartes convencionais<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                    <ul>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Plastico">Plástico</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Papel">Papel</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Vidro">Vidro</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Metal">Metal</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto"><span>Descartes Específicos<img src="~/img/seta.png" alt="Icone Seta para baixo" style="max-width:15px;"></span> </a>
+                    <ul>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Organico">Organico</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Pilha">Pilhas e Baterias</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Hospitalar">Hospitalar</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Madeira">Madeira</a></li>
+                        <li><a class="nav-link scrollto" asp-area="" asp-controller="home" asp-action="Radioativo">Radioativo</a></li>
+                    </ul>
+                </li>
+                <li><a style="text-decoration: none !important; padding: 7px !important;" class="getstarted scrollto" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a></li>
+                <li><a class="nav-link scrollto" asp-area="" asp-controller="ponto" asp-action="Inventario">Inventário</a></li>
+                <li><partial name="_LoginPartial.cshtml" class="nav-link scrollto" /></li>
+                        </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </div>
+  </header>
+
+    <main id="page-container" role="main" class="pb-3">
+        <div id="content-wrap">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer id="footer" class="text-center text-lg-start text-dark pt-4" style="border-top: 2px solid #dbdbdb !important;">
+
+            <section style="background-color: white !important;padding-right: 3rem!important;" class="footer-sect ps-5">
+                <div class="row">
+                    <div class="col-lg-1 col-md-6">
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div>
+                            <img src="~/android-chrome-512x512.png" style="max-height: 250px;" alt="Imagem Floribela">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1 col-md-6">
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-contact footer-links">
+                        <h2>Sobre</h2>
+                        <p>
+                           
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a asp-controller="home" asp-action="SobreNos">Sobre nós</a></li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h2>Contato</h2>
+                        <p style="font-size: 1em !important;text-align: center !important;">
+                            <strong>Email:</strong> mundoverdetcc@gmail.com<br>
+                        </p>
+                    </div>
+
+                </div>
+            </section>  
+        <div style=" background-color: #013b20 !important" class="ps-5 d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright" style="color: white;">
+                    &copy; Copyright <strong><span>Mundo Verde</span></strong>. Todos os direitos reservados
+                </div>
+                <div class="credits" style="color: white;">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+                    Projetado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

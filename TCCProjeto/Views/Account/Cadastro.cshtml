@@ -1,0 +1,111 @@
+﻿@model CadastroViewModel
+
+@{
+    ViewBag.Title = "Cadastro de Usuário";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+    <link href="~/css/styleLoginCadastro.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+<section class="m-5">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-xl-10">
+        <div class="card" style="border-radius: 1rem; height: fit-content">
+        <div class="row g-0">
+    <div class="col-md-6 col-lg-5 d-none d-md-block">
+        <img src="~/img/PagLoginCadastro/floribela.png"
+                alt="Mascote Floribela" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+    </div>
+    <div class="col-md-6 col-lg-7 d-flex align-items-center">
+        <div class="card-body px-5 text-black">
+            <form form method="post">
+                <div class="d-flex align-items-center mb-3 pb-1">
+                    <h1 class="fw-bold mb-0">MUNDO VERDE</h1>
+                </div>
+                <h5 class="pb-1" style="letter-spacing: 1px; font-weight: 600;">Cadastre-se </h5>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group form-outline mb-1 text-box">
+                    <input asp-for="Nome" placeholder="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-outline mb-1 text-box">
+                    <input asp-for="Email" placeholder="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-outline mb-1 text-box">
+                    <input asp-for="ConfirmEmail" placeholder="Confirmar Email" class="form-control" />
+                    <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-outline mb-1 text-box">
+                    <input asp-for="Password" type="password" placeholder="Senha" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-outline mb-1 text-box">
+                    <input asp-for="ConfirmPassword" placeholder="Confirmar Senha" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-group form-outline mb-1 text-box">
+                    <div class="checkbox">
+                        <label asp-for="Termos">
+                            <input asp-for="Termos"/>
+                                Li e estou de acordo com as  <a style="text-decoration: underline !important;" asp-controller="account" asp-action="TermosDeUso"> políticas da LGPD e termos de uso.</a>
+                            <span asp-validation-for="Termos" class="text-danger"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="pt-1 mb-4">
+                    <button type="submit" class="btn btn-dark btn-lg btn-block mt-3">Cadastre-se</button>
+                </div>
+
+                <p class="mb-5 pb-lg-2" style="color: #393f81;">
+                    <a style="color: #082861;" class="nav-link" asp-controller="account" asp-action="Login"> Já tem uma conta? <span style="text-decoration: underline;">Faça login</span> </a>
+                </p>
+            </form>
+
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</section>
+    </main>
+    <!-- Template Main JS File -->
+    <script src="~/js/main.js"></script>
+</body>
+</html>

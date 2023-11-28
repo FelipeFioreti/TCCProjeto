@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using TCCProjeto.Models
+@inject SignInManager<Pessoa> SignInManager
+@inject UserManager<Pessoa> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li>
+        <form method="post" asp-controller="account" asp-action="logout">
+            <button type="submit" style="max-height: 55px !important; padding: 3px 10px !important;font-size: 16px" class="btn btn-success m-2">
+                Logout @User.Identity.Name
+            </button>
+        </form>
+    </li>
+}
+else
+{
+    
+    <li>
+        <a class="nav-link scrollto" asp-controller="account" asp-action="Cadastro">Cadastrar</a>
+        
+    </li>
+    <li>
+        <a class="nav-link scrollto" asp-controller="account" asp-action="Login">Login</a>
+        
+    </li>
+}
