@@ -50,7 +50,7 @@
                 </div>
                 <h5 class="pb-1" style="letter-spacing: 1px; font-weight: 600;">Cadastre-se </h5>
 
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div asp-validation-summary="ModelOnly" class="text-danger d-flex justify-content-start"></div>
 
                 <div class="form-group form-outline mb-1 text-box">
                     <input asp-for="Nome" placeholder="Nome" class="form-control" />
@@ -77,7 +77,7 @@
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                 </div>
 
-                <div class="form-group form-outline mb-1 text-box">
+                <div class="form-group form-outline mb-1 text-box d-flex justify-content-start">
                     <div class="checkbox">
                         <label asp-for="Termos">
                             <input asp-for="Termos"/>
@@ -87,11 +87,11 @@
                     </div>
                 </div>
 
-                <div class="pt-1 mb-4">
+                <div class="pt-1 mb-4 d-flex justify-content-start">
                     <button type="submit" class="btn btn-dark btn-lg btn-block mt-3">Cadastre-se</button>
                 </div>
 
-                <p class="mb-5 pb-lg-2" style="color: #393f81;">
+                <p class="mb-5 pb-lg-2 d-flex justify-content-start" style="color: #393f81;">
                     <a style="color: #082861;" class="nav-link" asp-controller="account" asp-action="Login"> Já tem uma conta? <span style="text-decoration: underline;">Faça login</span> </a>
                 </p>
             </form>

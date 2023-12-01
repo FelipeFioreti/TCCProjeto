@@ -109,8 +109,12 @@ top: 0;
 
 .logo {
 overflow: hidden;
-padding: 16px 30px 12px 30px;
+padding: 18px 30px 18px 30px !important;
 background: #009970;
+}
+
+.logo h1{
+    margin: 0px;
 }
 
 .floribela-nav {
