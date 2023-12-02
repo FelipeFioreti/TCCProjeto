@@ -29,10 +29,12 @@
 </head>
 <body>
     <main>
-<h1 class="text-danger">Erro.</h1>
-<h2 class="text-danger">Ocorreu um erro durante o processamento do seu pedido.</h2>
+        <div class="container">
+        <h1 class="text-danger text-center mt-5">Erro.</h1>
+        <h2 class="text-danger mt-3">Ocorreu um erro durante o processamento do seu pedido.</h2>
+            <h4><a class="mt-2"asp-area="" asp-controller="home" asp-action="Index">Volte a página principal</a></h4>
+        </div>
 
-<a asp-area="" asp-controller="home" asp-action="Index">Volte a página principal</a>
     </main>
     <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="~/vendor/aos/aos.js"></script>

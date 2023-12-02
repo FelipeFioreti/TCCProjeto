@@ -134,7 +134,7 @@ namespace TCCProjeto.Areas.Admin.Controllers
 
 
                     pessoa.Pontos += (double)pontosParaReceber!;
-                    
+
                     _context.Users.Update(pessoa);
                     await _context.SaveChangesAsync();
 
@@ -249,7 +249,6 @@ namespace TCCProjeto.Areas.Admin.Controllers
 
                     user.Nome = pessoa.Nome;
                     user.Pontos = pessoa.Pontos;
-                    user.UserName = pessoa.UserName;
                     user.Email = pessoa.Email;
 
 

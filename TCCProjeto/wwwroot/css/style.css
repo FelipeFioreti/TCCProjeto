@@ -91,6 +91,7 @@ transition-delay: 0 !important;
     transition: all 0.5s;
     top: 0px;
     background: #fff;
+    height: 62px !important;
 }
 
 .shadow {
@@ -109,8 +110,9 @@ top: 0;
 
 .logo {
 overflow: hidden;
-padding: 18px 30px 18px 30px !important;
+height: 62px !important;
 background: #009970;
+
 }
 
 .logo h1{
