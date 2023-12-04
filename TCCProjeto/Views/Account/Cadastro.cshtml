@@ -49,9 +49,9 @@
                     <h1 class="fw-bold mb-0">MUNDO VERDE</h1>
                 </div>
                 <h5 class="pb-1" style="letter-spacing: 1px; font-weight: 600;">Cadastre-se </h5>
-
-                <div asp-validation-summary="ModelOnly" class="text-danger d-flex justify-content-start"></div>
-
+                <div class="text-danger d-flex justify-content-start">
+                <div asp-validation-summary="ModelOnly"></div>
+                </div>
                 <div class="form-group form-outline mb-1 text-box">
                     <input asp-for="Nome" placeholder="Nome" class="form-control" />
                     <span asp-validation-for="Nome" class="text-danger"></span>
