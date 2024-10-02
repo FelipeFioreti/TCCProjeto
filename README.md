@@ -1,4 +1,4 @@
-![Mascote do projeto floribela]([url da imagem gerado pelo serviço de hospedagem ou GitHub](https://github.com/FelipeFioreti/TCCProjeto/blob/main/TCCProjeto/wwwroot/img/FloribelaHome.png))
+![Mascote do projeto floribela](https://github.com/FelipeFioreti/TCCProjeto/blob/main/TCCProjeto/wwwroot/img/FloribelaHome.png))
 
 <h1>Para fazer o projeto funcionar baixe a ferramente dotnet ef</h1>
 
