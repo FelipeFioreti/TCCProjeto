@@ -1,0 +1,909 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TCCProjeto.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TCCProjeto.vkvzt57sb7.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\css\\baguetteBox.min.css",
+      "PackagePath": "staticwebassets\\css\\baguetteBox.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\css\\styleLoginCadastro.css",
+      "PackagePath": "staticwebassets\\css\\styleLoginCadastro.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\css\\vanilla-zoom.min.css",
+      "PackagePath": "staticwebassets\\css\\vanilla-zoom.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\Equipe\\img-felipe.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipe\\img-felipe.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\Equipe\\img-gi.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipe\\img-gi.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\Equipe\\img-henrique.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipe\\img-henrique.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\Equipe\\img-rocha.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipe\\img-rocha.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\Equipe\\img-rodrigo.png",
+      "PackagePath": "staticwebassets\\img\\Equipe\\img-rodrigo.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\Equipe\\img-romera.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipe\\img-romera.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\FloribelaHome.png",
+      "PackagePath": "staticwebassets\\img\\FloribelaHome.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-baterias.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-baterias.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-hospitalar.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-hospitalar.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-madeira.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-madeira.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-metal.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-metal.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-organico.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-organico.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-papel.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-papel.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-plastico.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-plastico.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-radioativo.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-radioativo.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagInformativas\\imagem-vidro.png",
+      "PackagePath": "staticwebassets\\img\\PagInformativas\\imagem-vidro.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagLoginCadastro\\BGLogin.png",
+      "PackagePath": "staticwebassets\\img\\PagLoginCadastro\\BGLogin.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagLoginCadastro\\floribela.png",
+      "PackagePath": "staticwebassets\\img\\PagLoginCadastro\\floribela.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\MicrosoftTeams-image-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\MicrosoftTeams-image-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-1.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-1.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-2.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-2.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-3.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-3.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-4.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-4.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-5.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-5.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-6.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-6.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-7.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-7.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-8.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-8.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image-9.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image-9.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\PagPontos\\clipboard-image.png",
+      "PackagePath": "staticwebassets\\img\\PagPontos\\clipboard-image.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\avatars\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\img\\avatars\\avatar1.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\avatars\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatars\\avatar2.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\avatars\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\img\\avatars\\avatar3.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clipboard-image-1.png",
+      "PackagePath": "staticwebassets\\img\\clipboard-image-1.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\clipboard-image.png",
+      "PackagePath": "staticwebassets\\img\\clipboard-image.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\flo-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\flo-bg.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\list.png",
+      "PackagePath": "staticwebassets\\img\\list.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reci-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\reci-bg.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-1.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-2.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-3.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-4.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-4.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-5.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-5.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-6.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-6.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-7.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-7.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-8.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-8.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\reciclaveis\\reciclavel-9.jpg",
+      "PackagePath": "staticwebassets\\img\\reciclaveis\\reciclavel-9.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\seta.png",
+      "PackagePath": "staticwebassets\\img\\seta.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\tech\\a.jpeg",
+      "PackagePath": "staticwebassets\\img\\tech\\a.jpeg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\tech\\a.png",
+      "PackagePath": "staticwebassets\\img\\tech\\a.png"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\tech\\image4.jpg",
+      "PackagePath": "staticwebassets\\img\\tech\\image4.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\js\\baguetteBox.min.js",
+      "PackagePath": "staticwebassets\\js\\baguetteBox.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\js\\vanilla-zoom.js",
+      "PackagePath": "staticwebassets\\js\\vanilla-zoom.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\site.webmanifest",
+      "PackagePath": "staticwebassets\\site.webmanifest"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\vendor\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projetos para serem organizados\\TCC\\TCCProjeto-main\\TCCProjeto\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TCCProjeto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TCCProjeto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TCCProjeto.props",
+      "PackagePath": "build\\TCCProjeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TCCProjeto.props",
+      "PackagePath": "buildMultiTargeting\\TCCProjeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TCCProjeto.props",
+      "PackagePath": "buildTransitive\\TCCProjeto.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

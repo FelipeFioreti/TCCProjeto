@@ -1,0 +1,185 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TCCProjeto
+build_property.RootNamespace = TCCProjeto
+build_property.ProjectDir = D:\Projetos para serem organizados\TCC\TCCProjeto-main\TCCProjeto\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projetos para serem organizados\TCC\TCCProjeto-main\TCCProjeto
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Admin/Adicionar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRpY2lvbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Produto/Adicionar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xBZGljaW9uYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Produto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Produto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Produto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Account/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Account/TermosDeUso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUZXJtb3NEZVVzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Hospitalar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb3NwaXRhbGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Madeira.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWRlaXJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Metal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZXRhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Organico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmdhbmljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Papel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXBlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Pilha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaWxoYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Plastico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQbGFzdGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Radioativo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYWRpb2F0aXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/SobreNos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Home/Vidro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Ponto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Ponto/Inventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udG9cSW52ZW50YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Ponto/NecessarioMaisPontos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udG9cTmVjZXNzYXJpb01haXNQb250b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Ponto/ProdutoIndisponivel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udG9cUHJvZHV0b0luZGlzcG9uaXZlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Ponto/ProdutoNoInventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udG9cUHJvZHV0b05vSW52ZW50YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Ponto/ProdutoResgatado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9udG9cUHJvZHV0b1Jlc2dhdGFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Shared/_LoginAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos para serem organizados/TCC/TCCProjeto-main/TCCProjeto/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r1bx7igt36
