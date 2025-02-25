@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <title>@ViewData["Title"] - Admin</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TCCProjeto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+
+    <link href="https://cdn.datatables.net/v/dt/dt-1.13.8/datatables.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3" style="height: 60px;">
+            <div class="container">
+                <a class="navbar-brand" style="font-size: 1.1em !important;" asp-area="" asp-controller="Home" asp-action="Index">Página Inicial</a>
+                <a class="navbar-brand" style="font-size: 1.1em !important;" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
+                <a class="navbar-brand" style="font-size: 1.1em !important;" asp-area="Admin" asp-controller="Produto" asp-action="Index">Produto</a>
+                <a class="navbar-brand" style="font-size: 1.1em !important;" asp-area="" asp-controller="ponto" asp-action="Index">Pontos</a>
+                <div class="navbar-collapse collapse d-sm-inline-flex"></div>
+                <div class="navbar-collapse collapse d-sm-inline-flex"></div>
+            
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.datatables.net/v/dt/dt-1.13.8/datatables.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,148 @@
+﻿@model TCCProjeto.Areas.Admin.Models.ModelPontos
+
+@{
+    ViewData["Title"] = "Adicionar Pontos";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+<h1>Adicionar Pontos</h1>
+
+<h4>Pessoa</h4>
+<hr />
+<h4>Insira os dados em gramas.</h4>
+<div class="flex-row">
+    <div class="flex-column">
+        <form asp-action="Adicionar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="QuantidadePlastico" class="control-label"></label>
+                <input asp-for="QuantidadePlastico" class="form-control" />
+                <span asp-validation-for="QuantidadePlastico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeMetal" class="control-label"></label>
+                <input asp-for="QuantidadeMetal" class="form-control" />
+                <span asp-validation-for="QuantidadeMetal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeVidro" class="control-label"></label>
+                <input asp-for="QuantidadeVidro" class="form-control" />
+                <span asp-validation-for="QuantidadeVidro" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="QuantidadePapel" class="control-label"></label>
+                <input asp-for="QuantidadePapel" class="form-control" />
+                <span asp-validation-for="QuantidadePapel" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="QuantidadeLixoEletronico" class="control-label"></label>
+                <input asp-for="QuantidadeLixoEletronico" class="form-control" />
+                <span asp-validation-for="QuantidadeLixoEletronico" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="QuantidadeOutrosLixos" class="control-label"></label>
+                <input asp-for="QuantidadeOutrosLixos" class="form-control" />
+                <span asp-validation-for="QuantidadeOutrosLixos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" style="margin: 10px 0 10px 0" />
+            </div>
+        </form>
+    </div>
+    <h2> Tabela de Pontos por Kg</h2>
+    <table class="table table-sm table-bordered table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    Plástico
+                </th>
+                <th>
+                    Metal
+                </th>
+                <th>
+                    Vidro
+                </th>
+                <th>
+                    Papel
+                </th>
+                <th>
+                    Lixo Eletrônico
+                </th>
+                <th>
+                    Outros Lixos
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>
+                    40 Pontos
+                </td>
+                <td>
+                    100 Pontos
+                </td>
+                <td>
+                    60 Pontos
+                </td>
+                <td>
+                    30 Pontos
+                </td>
+                <td>
+                    200 Pontos
+                </td>
+                <td>
+                    70 Pontos
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+        </main>
+    <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/js/main.js"></script>
+    </body>
+    </html>
